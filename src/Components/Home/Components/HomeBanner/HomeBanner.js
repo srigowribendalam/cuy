@@ -51,9 +51,9 @@ console.log(  activedot)
             <div className="Home-Banner-one-content">
               <div className="Home-Banner-one-content-heading">
               <h1>We are Creative </h1>
-              <h1>
+              {/* <h1>
               Service Agency
-              </h1>
+              </h1> */}
               </div>
               <h5>{dotVlaue[activedot]}</h5>
           
@@ -73,7 +73,7 @@ console.log(  activedot)
               {(activedot === 0 && (
                 <img
                 className="Service-img-one"
-                  src={require("../../../../Assets/Home/Home-banner-one.png")}
+                  src={require("../../../../Assets/Home/art1.svg")}
                   alt="banner"
                 />
               )) || ((activedot === 1 && (<img
@@ -82,7 +82,7 @@ console.log(  activedot)
                   alt="banner"
                 />))|| (activedot === 2 && (<img
                   className="Service-img-three"
-                    src={require("../../../../Assets/Home/Home-banner-three.png")}
+                    src={require("../../../../Assets/Home/art2.svg")}
                     alt="banner"
                   />))
               )}

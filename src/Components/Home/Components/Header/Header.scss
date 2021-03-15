@@ -1,22 +1,26 @@
 @import "../../../../Scss/base/_colors";
 .nav{
-  height: 100px;
+  height: 80px;
   width: 100%;
   background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 2px 60px #AFAFAF29;
+// box-shadow: 0px 2px 60px #AFAFAF29;
 opacity: 1;
-background-color: rgba(253, 253, 253, 0.9);
+// background-color: rgba(253, 253, 253, 0.9);
 -webkit-backdrop-filter: blur(20px);
 backdrop-filter: blur(20px);
 position: fixed;
+// display: none;
 top: 0;
-z-index: 2000;
+z-index: 1000;
   .nav-header {
     display: inline;
-
+    padding-bottom: 20px;
     img {
-      width: 100px;
-      margin: 1%;
+      width: 80px;
+margin-top:0.6%;
+margin-left: 1%;
+
+
     }
   }
   .nav-links {
@@ -30,7 +34,7 @@ z-index: 2000;
 
       text-decoration: none;
       color: #777777;
-      padding: 30px 3rem;
+      padding: 30px 20px;
 
       display: inline-block;
       position: relative;
@@ -46,16 +50,17 @@ z-index: 2000;
       position: absolute;
       background-color: #6127fa;
       border-radius: 25px;
+      
     }
 
     a.navbar-item.is-active::before {
-      width: 110px;
+      width: 75%;
      display: inline;
       bottom: 18px;
     }
 
     a.navbar-item.is-active:hover::before {
-      width: 70%;
+      width: 100%;
     }
 
     button.ant-btn.Header-Login {
@@ -132,7 +137,7 @@ z-index: 2000;
     }
     .Headerbody-icon {
       text-align: right;
-      padding-right: 4%;
+padding-right: 4%;
       .anticon {
         color: $primary;
       }

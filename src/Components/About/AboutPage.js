@@ -232,7 +232,7 @@ const scrollBackToTop = () => {
           </div>
           <div>
          
-         <img  src={require("../../Assets/Ourservies/backtotop.png")} className="targettop"  onClick={scrollBackToTop}/>
+         <img  src={require("../../Assets/Ourservies/backtotop.svg")} className="targettop"  onClick={scrollBackToTop}/>
        
      </div>
         </div>

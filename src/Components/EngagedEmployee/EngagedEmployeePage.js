@@ -275,7 +275,7 @@ const EngagedEmployeePage = () => {
 
       <div>
         <img
-          src={require("../../Assets/Ourservies/backtotop.png")}
+          src={require("../../Assets/Ourservies/backtotop.svg")}
           className="targettop"
           onClick={scrollBackToTop}
         />

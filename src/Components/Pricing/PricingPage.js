@@ -50,6 +50,11 @@ const PricingPage = () => {
             onClick={() => setactive("Standard")}
           >
             <h2>Standard</h2>
+            <img
+                className="imgfluid"
+                src={ active === "Standard" ?require("../../Assets/Pricing/diamond.svg"):require("../../Assets/Pricing/diamondblue.svg")}
+                alt="logo"
+              />
             <h1>{PlanType === "Yearly" ? "$1500" : "$150"}</h1>
             <span className="validate-fields">
               {PlanType === "Yearly" ? (
@@ -78,10 +83,10 @@ const PricingPage = () => {
               )}
             </span>
             <div className="pricing-button">
-              <Button>Get started</Button>
-              <span className="view" onClick={() => setmodalVisible(true)}>
+            <Button  onClick={() => setmodalVisible(true)}>  View details</Button>
+              {/* <span className="view" onClick={() => setmodalVisible(true)}>
                 View details
-              </span>
+              </span> */}
             </div>
           </div>
           <div
@@ -94,14 +99,14 @@ const PricingPage = () => {
             style={{ borderRadius: "0 0px 0px 0px" }}
           >
             <h2>
-              Executive{" "}
-              <img
+              Executive
+           
+            </h2>
+            <img
                 className="imgfluid"
-                src={require("../../Assets/Pricing/diamond.svg")}
+                src={ active === "Executive" ?require("../../Assets/Pricing/diamond.svg"):require("../../Assets/Pricing/diamondblue.svg")}
                 alt="logo"
               />
-            </h2>
-
             <h1>{PlanType === "Yearly" ? "$1000" : "$100"}</h1>
             <span className="validate-fields">
               {PlanType === "Yearly" ? (
@@ -130,10 +135,10 @@ const PricingPage = () => {
               )}
             </span>
             <div className="pricing-button">
-              <Button>Get started</Button>
-              <span className="view" onClick={() => setmodalVisible(true)}>
+              <Button  onClick={() => setmodalVisible(true)}>  View details</Button>
+              {/* <span className="view" onClick={() => setmodalVisible(true)}>
                 View details
-              </span>
+              </span> */}
             </div>
           </div>
           <div
@@ -146,6 +151,11 @@ const PricingPage = () => {
             style={{ borderRadius: "0 30px 30px 0px" }}
           >
             <h2>Premium</h2>
+            <img
+                className="imgfluid"
+                src={ active === "Premium" ?require("../../Assets/Pricing/diamond.svg"):require("../../Assets/Pricing/diamondblue.svg")}
+                alt="logo"
+              />
             <h1>{PlanType === "Yearly" ? "$2000" : "$200"}</h1>
             <span className="validate-fields">
               {PlanType === "Yearly" ? (
@@ -174,10 +184,10 @@ const PricingPage = () => {
               )}
             </span>
             <div className="pricing-button">
-              <Button>Get started</Button>
-              <span className="view" onClick={() => setmodalVisible(true)}>
+            <Button  onClick={() => setmodalVisible(true)}>  View details</Button>
+              {/* <span className="view" onClick={() => setmodalVisible(true)}>
                 View details
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
