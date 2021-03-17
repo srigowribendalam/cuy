@@ -38,7 +38,7 @@ const scrollBackToTop = () => {
                 <div className="AboutPage-Banner-img">
                   <img
                     className="contact"
-                    src={require("../../Assets/About/AboutBanner.png")}
+                    src={require("../../Assets/About/AboutBanner.svg")}
                     alt="banner"
                   />
                 </div>
@@ -70,26 +70,8 @@ const scrollBackToTop = () => {
               </Col>
               <Col md={8}>
                 <div className="AboutPage-Kudos-main-content">
-                  {/* <h2>Kudos</h2>
-                  <Divider />
-                  <h5>
-                    Everyone needs to be praised. Kudos are appreciation given
-                    by peers, managers and leaders for the great work you have
-                    done.
-                  </h5> */}
-                </div>
-              </Col>
-            </Row>
-          </div>
-          {/* AboutPage-Kudos ends Here */}
-
-          {/* AboutPage-Cuyfypoints start here */}
-          <div className="AboutPage-Cuyfypoints-container">
-            <Row>
-              <Col md={12}>
-                <div className="AboutPage-Cuyfypoints-content">
-                  <h2>What matters us</h2>
-                  <Divider />
+                <h2>What matters us</h2>
+                <Divider />
                   <h5>
                     You deserve a break for all the work you have put in these
                     days. Let Cuyfy help you out with a couple of free goodies
@@ -97,30 +79,29 @@ const scrollBackToTop = () => {
                   </h5>
                 </div>
               </Col>
-              <Col md={12}>
-                <div className="AboutPage-Cuyfypoints-img">
-                  <img
-                    className="contact"
-                    src={require("../../Assets/Ourservies/banner7.png")}
-                    alt="banner"
-                  />
-                </div>
-              </Col>
             </Row>
           </div>
+          {/* AboutPage-Kudos ends Here */}
+
+          {/* AboutPage-Cuyfypoints start here */}
+    
           {/* AboutPage-Cuyfypoints ends here */}
 
           {/* AboutPage-feeds-start */}
+        
           <div className="AboutPage-feeds-container">
             <Row>
               <Col md={10}>
                 <div className="AboutPage-feeds-content">
-                  {/* <h2>Feeds</h2>
+                <h2>
+                  How we do it
+                  </h2>
                   <Divider />
                   <h5>
-                    Stay up to date with the organization and your fellow
-                    employees with frequent updates.
-                  </h5> */}
+                    It’s a gift…. The starter kit given by companies along with
+                    us to new recruits with all the essentials needs to embark
+                    in your new and awesome journey
+                  </h5>
                 </div>
               </Col>
               <Col md={14}>
@@ -143,36 +124,10 @@ const scrollBackToTop = () => {
               </Col>
             </Row>
           </div>
-
           {/* AboutPage-feeds-ends */}
 
           {/* AboutPage-Cuyfypoints Start Here*/}
-          <div className="AboutPage-Cuyfybox-container">
-            <Row>
-              <Col md={14}>
-                <div className="AboutPage-Cuyfybox-image">
-                  <img
-                    className="contact"
-                    src={require("../../Assets/About/Cuyfybox.png")}
-                    alt="banner"
-                  />
-                </div>
-              </Col>
-              <Col md={10}>
-                <div className="AboutPage-Cuyfybox-content">
-                  <h2>
-                  How we do it
-                  </h2>
-                  <Divider />
-                  <h5>
-                    It’s a gift…. The starter kit given by companies along with
-                    us to new recruits with all the essentials needs to embark
-                    in your new and awesome journey
-                  </h5>
-                </div>
-              </Col>
-            </Row>
-          </div>
+      
 
 
           <div className="Conduct-container">
@@ -230,11 +185,11 @@ const scrollBackToTop = () => {
           <div className="AboutPage-footer">
             <Footer/>
           </div>
-          <div>
+          {/* <div>
          
          <img  src={require("../../Assets/Ourservies/backtotop.svg")} className="targettop"  onClick={scrollBackToTop}/>
        
-     </div>
+     </div> */}
         </div>
       </div>
     </div>

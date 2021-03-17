@@ -49,7 +49,7 @@ class Footer extends Component {
             <Col md={7} sm={24}>
               <div className="footer-Logo">
                 <img
-                  src={require("../../../../Assets/Home/logomain.png")}
+                  src={require("../../../../Assets/Home/logofooter.svg")}
                   alt="Logo"
                 />
               </div>

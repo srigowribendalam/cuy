@@ -21,7 +21,7 @@ const EngagedEmployeePage = () => {
       <div className="Our-Services-Container">
         {/* <!-- introduction block starts here--> */}
         <Row>
-          <Col sm={10}>
+          <Col sm={13}>
             <div className="Our-Services-contnet">
               <h1>Engaged Employee</h1>
               <h3>Introduction</h3>
@@ -32,7 +32,7 @@ const EngagedEmployeePage = () => {
               </h5>
             </div>
           </Col>
-          <Col sm={12}>
+          <Col sm={10}>
             <div className="Our-Services-imgfluid">
               <img
                 className="imgfluid"
@@ -48,7 +48,7 @@ const EngagedEmployeePage = () => {
       <div className="Wisely-Plan-container">
         {/* <!-- Wisely Plan you Benefits block starts here--> */}
         <Row>
-          <Col sm={12}>
+          <Col sm={13}>
             <div className="Wisely-Plan-content">
               <h3>Wisely Plan you Benefits</h3>
               <Divider />
@@ -63,7 +63,7 @@ const EngagedEmployeePage = () => {
               </h5>
             </div>
           </Col>
-          <Col sm={12}>
+          <Col sm={10}>
             <div className="Wisely-Plan-imgfluid">
               <img
                 src={require("../../Assets/Ourservies/banner2.png")}
@@ -87,7 +87,7 @@ const EngagedEmployeePage = () => {
               />
             </div>
           </Col>
-          <Col sm={12}>
+          <Col sm={13}>
             <div className="Make-rewads-content">
               <h3>Make rewads more memorable</h3>
               <Divider />
@@ -273,13 +273,13 @@ const EngagedEmployeePage = () => {
         {/* <!-- Plan your career block ends here--> */}
       </div>
 
-      <div>
+      {/* <div>
         <img
           src={require("../../Assets/Ourservies/backtotop.svg")}
           className="targettop"
           onClick={scrollBackToTop}
         />
-      </div>
+      </div> */}
 
       <div>
         <Footer />

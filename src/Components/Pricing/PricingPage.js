@@ -12,6 +12,15 @@ const PricingPage = () => {
   const toggleTab = (e) => {
     setPlanType(e.target.innerText);
   };
+
+const handletoggleTab=()=>{
+  if(PlanType==="Yearly"){
+    setPlanType("Monthly")
+  }else{
+    setPlanType("Yearly")
+  }
+}
+
   const contenticon = (
     <Icon
       type="check-circle"
@@ -25,7 +34,7 @@ const PricingPage = () => {
         <h1>Pricing to suit all Sizes of companies</h1>
         <h5>Get in touch and let us know how we can help.</h5>
         <h5>Get in touch and let us know</h5>
-        <div className="pricing-nav-tabs">
+        <div className="pricing-nav-tabs" style={{cursor:'pointer'}} onClick={handletoggleTab}>
           <div
             className={PlanType === "Yearly" ? "active" : "in-active "}
             onClick={toggleTab}

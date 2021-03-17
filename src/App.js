@@ -1,3 +1,4 @@
+
 import React, { Suspense, lazy } from 'react';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import './App.scss';
@@ -33,3 +34,4 @@ function App() {
 }
 
 export default App;
+

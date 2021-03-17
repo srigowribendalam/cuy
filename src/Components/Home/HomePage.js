@@ -1,3 +1,4 @@
+
 import React, { lazy, Suspense,useEffect } from "react";
 import "./HomePage.scss";
 const HomeBanner = lazy(() => import("./Components/HomeBanner/HomeBanner"));
@@ -16,13 +17,13 @@ const ContactSection = lazy(() =>
   import("./Components/ContactSection/ContactSection")
 );
 
-const scrollBackToTop = () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
-};
+// const scrollBackToTop = () => {
+//   window.scrollTo({
+//     top: 0,
+//     left: 0,
+//     behavior: "smooth",
+//   });
+// };
 
 const HomePage = () => {
   useEffect(() => {
@@ -52,13 +53,13 @@ const HomePage = () => {
             <ABoutCuySection />
           </Suspense>
         </div>
-
+{/* 
         <div>
           <Suspense fallback={<h1>Still Loading…</h1>}>
             <TutorlalSection />
           </Suspense>
-        </div>
-        <div>
+        </div> */}
+        <div style={{paddingTop:"8%"}}>
           <Suspense fallback={<h1>Still Loading…</h1>}>
             <ContactSection />
           </Suspense>
@@ -69,13 +70,13 @@ const HomePage = () => {
             <Footer />
           </Suspense>
         </div>
-        <div   className="targettop">
+        {/* <div   className="targettop">
         <img
           src={require("../../Assets/Ourservies/backtotop.png")}
           onClick={scrollBackToTop}
           className="targettop"
         />
-      </div>
+      </div> */}
       </div>
 
    

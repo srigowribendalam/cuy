@@ -78,7 +78,7 @@ console.log(  activedot)
                 />
               )) || ((activedot === 1 && (<img
                 className="Service-img-two"
-                  src={require("../../../../Assets/Home/Home-banner-two.png")}
+                  src={require("../../../../Assets/Home/Home-banner-two.svg")}
                   alt="banner"
                 />))|| (activedot === 2 && (<img
                   className="Service-img-three"
@@ -103,7 +103,7 @@ console.log(  activedot)
         <img
                 className="next-img"
                 onClick={gotoNext}
-                src={require("../../../../Assets/Home/play-button.png")}
+                src={require("../../../../Assets/Home/next.svg")}
                 alt="Logo"
               />
               </div>

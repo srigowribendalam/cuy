@@ -3,8 +3,9 @@
   margin-top: 5%;
   .Our-Services-Container {
     margin: 5% 3%;
+    // height: 65vh;
     .Our-Services-contnet {
-      margin-top: 10%;
+      margin-top: 5%;
       h1 {
         color: #6127fa;
         font-weight: 600;
@@ -20,12 +21,12 @@
         opacity: 0.9;
         font-size: 1.8rem;
         line-height: 2;
-        width: 94%;
+        width: 80%;
       }
     }
     .Our-Services-imgfluid {
       img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
       }
     }
@@ -37,7 +38,7 @@
     cursor: pointer;
   }
   .Wisely-Plan-container {
-    margin: 5% 3%;
+    margin: 8% 3%;
     .Wisely-Plan-content {
       margin-top: 10%;
 
@@ -70,21 +71,24 @@
     }
   }
   .Wisely-Plan-imgfluid {
-    width: 85%;
+    width: 80%;
     img {
-      width: 85%;
+      width: 80%;
       height: auto;
- 
+      position: relative;
+      left: 13%;
+  
     }
   }
   .Make-rewads-container {
-    margin: 5% 3%;
+    margin: 8% 3%;
 
     .Make-rewads-img {
-      width: 90%;
+      width: 80%;
       img {
-        max-width: 100%;
+        max-width: 85%;
         height: auto;
+        margin-top: 5%;
       }
     }
     .Make-rewads-content {
@@ -126,7 +130,7 @@
     }
   }
   .Bring-container {
-    margin: 5% 3%;
+    margin: 8% 3%;
     .Bring-container-content {
       margin-top: 10%;
 
@@ -155,24 +159,25 @@
         font-size: 1.8rem;
         line-height: 2;
         line-height: 2;
-        width: 90%;
+        width: 75%;
       }
     }
     .Bring-container-imgfluid {
    
       img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
       }
     }
   }
   .Kindle-container {
-    margin: 5% 3%;
+    margin: 8% 3%;
 
     .Kindle-img {
       img {
-        max-width: 90%;
+        max-width: 78%;
         height: auto;
+        margin-top: 2%;
       }
     }
     .Kindle-container-content {
@@ -213,9 +218,9 @@
     }
   }
   .Plan-container {
-    margin: 5% 3%;
+    margin: 1.5% 3%;
     .Plan-container-content {
-      margin-top: 10%;
+    padding-top:  16%;
 
       h3 {
         font-size: 2.8rem;
@@ -247,18 +252,21 @@
     .Plan-container-img {
       width: 90%;
       img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
+        position:relative;
+        left: 13%;
       }
     }
   }
   .events-container {
-    margin: 5% 3%;
+    margin: 2% 3%;
 
     .events-container-img {
       img {
-        max-width: 90%;
+        max-width: 75%;
         height: auto;
+        margin-top: 9%;
       }
     }
     .events-container-content {
@@ -299,7 +307,7 @@
     }
   }
   .Conduct-container {
-    margin: 5% 3%;
+    margin: 8% 3%;
     .Conduct-container-content {
       margin-top: 10%;
 
@@ -368,7 +376,7 @@
       }
       .Our-Services-imgfluid {
         img {
-          max-width: 90%;
+          max-width: 80%;
           height: auto;
           margin: 5%;
         }
@@ -415,9 +423,8 @@
     }
     .Wisely-Plan-imgfluid {
       img {
-        max-width: 90%;
-        height: auto;
-        margin: 5%;
+        width: 85%;
+        margin-top: 5%;
       }
     }
     .Make-rewads-container {
@@ -435,9 +442,8 @@
     }
       .Make-rewads-img {
         img {
-          max-width: 90%;
-          height: auto;
-          margin: 5%;
+          width: 85%;
+          margin-top: 5%;
         }
       }
       .Make-rewads-content {
@@ -512,7 +518,7 @@
       }
       .Bring-container-imgfluid {
         img {
-          max-width: 90%;
+          max-width: 80%;
           height: auto;
           margin: 5%;
         }
@@ -590,7 +596,7 @@
         // flex-direction: column-reverse;
     }
       .Plan-container-content {
-        margin-top: 10%;
+        margin-top: 13%;
         text-align: center;
  
         h3 {

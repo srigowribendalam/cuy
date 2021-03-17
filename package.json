@@ -1,10 +1,9 @@
 {
-  "name": "cuy",
+  "name": "Cuy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "antd": "3.26.18",
-    "ngrok": "^3.4.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -12,10 +11,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "serve": "^11.3.2"
-  },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.14.4"
   },
   "scripts": {
     "dev": "react-scripts start",

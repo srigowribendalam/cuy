@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <div className="nav">
       <div className="nav-header">
-          <img src={require("../../../../Assets/Home/logomain.png")} alt="Logo" className="brand" />
+          <img src={require("../../../../Assets/Home/logomain.svg")} alt="Logo" className="brand" />
         </div>
        
         <div className="nav-links">
